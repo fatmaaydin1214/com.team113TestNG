@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualitydemyPage;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class C03_qualitydemyNegatifLoginTesti {
 
@@ -25,6 +26,9 @@ public class C03_qualitydemyNegatifLoginTesti {
 
         qualitydemyPage.passwordKutusu.sendKeys("heyecandir");
         // login butonuna tiklayin
+
+        qualitydemyPage.cookieAcceptButonu.click();
+        ReusableMethods.bekle(3);
 
         qualitydemyPage.loginButonu.click();
         // giris yapilamadigini test edin

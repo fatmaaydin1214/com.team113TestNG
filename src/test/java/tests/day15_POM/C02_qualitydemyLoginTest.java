@@ -1,12 +1,15 @@
 package tests.day15_POM;
 
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualitydemyPage;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class C02_qualitydemyLoginTest {
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
         // QUALITYDEMY ANA SAYFAYA GIDIN
         Driver.getDriver().get("https://www.qualitydemy.com");
@@ -19,7 +22,8 @@ public class C02_qualitydemyLoginTest {
 
         // login butonuna basin
 
-
+        qualitydemyPage.cookieAcceptButonu.click();
+        ReusableMethods.bekle(3);
         qualitydemyPage.loginButonu.click();
 
         // basarili olarak giris yapildigini test edin

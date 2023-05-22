@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4896ab9-6276-4826-aac5-b7634a6d23ae" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/QualitydemyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C01_PageIlkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C02_qualitydemyLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C03_qualitydemyNegatifLoginTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C04_ConfigurationDosyasiKullanma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C05_QualitydemyLoginTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_POM_Assertions/C01_DriverClassSonHali.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_POM_Assertions/C02_SingletonPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_POM_Assertions/C03_SoftAssertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+    <list default="true" id="d4896ab9-6276-4826-aac5-b7634a6d23ae" name="Changes" comment="20.05.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17_xmlFiles_TestNGReports/ReusableMethodsSwitchingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/IstenenClasslariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/IstenenGruplariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/IstenenMethodlariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/IstenenPackagelariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/TumTestleriCalistirma.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/QualitydemyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/QualitydemyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14_testNGFrameworkOlusturma/C01_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14_testNGFrameworkOlusturma/C01_Priority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C02_qualitydemyLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C02_qualitydemyLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_POM/C06_QualitydemyNegatifLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +58,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C03_SoftAssertion.softAssertionTesti">
-    <configuration name="C01_DriverClassSonHali" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day16_POM_Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day16_POM_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day16_POM_Assertions.C01_DriverClassSonHali" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C02_qualitydemyLoginTest">
     <configuration name="C02_qualitydemyLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
       <extension name="coverage">
@@ -96,52 +76,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_SoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Wise-Quarter/Documents/TestNG/com.team113TestNG/xmlFiles/IstenenGruplariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day16_POM_Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day16_POM_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day16_POM_Assertions.C03_SoftAssertion" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/IstenenGruplariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_SoftAssertion.softAssertionTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Wise-Quarter/Documents/TestNG/com.team113TestNG/xmlFiles/IstenenMethodlariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day16_POM_Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day16_POM_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day16_POM_Assertions.C03_SoftAssertion" />
-      <option name="METHOD_NAME" value="softAssertionTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/IstenenMethodlariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_QualitydemyNegatifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Wise-Quarter/Documents/TestNG/com.team113TestNG/xmlFiles/IstenenPackagelariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.team113TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15_POM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15_POM.C06_QualitydemyNegatifLoginTesti" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/IstenenPackagelariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Wise-Quarter/Documents/TestNG/com.team113TestNG/xmlFiles/TumTestleriCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.team113TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/TumTestleriCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -150,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C03_SoftAssertion.softAssertionTesti" />
-        <item itemvalue="TestNG.C03_SoftAssertion" />
-        <item itemvalue="TestNG.C01_DriverClassSonHali" />
         <item itemvalue="TestNG.C02_qualitydemyLoginTest" />
-        <item itemvalue="TestNG.C06_QualitydemyNegatifLoginTesti" />
+        <item itemvalue="TestNG.C:/Users/Wise-Quarter/Documents/TestNG/com.team113TestNG/xmlFiles/IstenenGruplariCalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/Wise-Quarter/Documents/TestNG/com.team113TestNG/xmlFiles/TumTestleriCalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/Wise-Quarter/Documents/TestNG/com.team113TestNG/xmlFiles/IstenenMethodlariCalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/Wise-Quarter/Documents/TestNG/com.team113TestNG/xmlFiles/IstenenPackagelariCalistirma.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -174,11 +142,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684347297595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20.05.2023">
+      <created>1684604516380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684604516380</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="20.05.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.05.2023" />
   </component>
 </project>

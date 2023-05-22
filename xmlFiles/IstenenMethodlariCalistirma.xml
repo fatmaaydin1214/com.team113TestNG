@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Istenen test methodlarini calistirma">
+    <test name="negatif testler">
+        <classes>
+            <class name="tests.day15_POM.C06_QualitydemyNegatifLoginTesti">
+                <methods>
+                    <include name="gecersizSifreTrsti"></include>
+                    <include name="gecersizIsimTesti"></include>
+                </methods>
+            </class>
+            <class name="tests.day14_testNGFrameworkOlusturma.C01_Priority">
+                <methods>
+                    <exclude name="youTubeTesti"></exclude>
+                    <exclude name="amazonTesti"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

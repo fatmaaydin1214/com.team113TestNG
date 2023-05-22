@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import pages.QualitydemyPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class C05_QualitydemyLoginTesti {
     @Test
@@ -19,6 +20,9 @@ public class C05_QualitydemyLoginTesti {
         // gecerli username ve sifre yi ilgili kutulara yazin
         qualitydemyPage.emailKutusu.sendKeys(ConfigReader.getProperty("qdGecerliUsername"));
         qualitydemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty("qdGecerliPassword"));
+
+        qualitydemyPage.cookieAcceptButonu.click();
+        ReusableMethods.bekle(3);
 
         // login butonuna basin
         qualitydemyPage.loginButonu.click();
