@@ -40,6 +40,10 @@ public class C06_QualitydemyNegatifLoginTesti {
         // gecersiz username ve gecerli sifre yi ilgili kutulara yazin
         qualitydemyPage.emailKutusu.sendKeys(ConfigReader.getProperty("qdGecersizUsername"));
         qualitydemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty("qdGecerliPassword"));
+
+        qualitydemyPage.cookieAcceptButonu.click();
+        ReusableMethods.bekle(3);
+
         // login butonuna basin
         qualitydemyPage.loginButonu.click();
         // basarili olarak giris yapilamadigini test edin
@@ -57,6 +61,10 @@ public class C06_QualitydemyNegatifLoginTesti {
         // gecerli username ve gecersiz sifre yi ilgili kutulara yazin
         qualitydemyPage.emailKutusu.sendKeys(ConfigReader.getProperty("qdGecerliUsername"));
         qualitydemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty("qdGecersizPassword"));
+
+        qualitydemyPage.cookieAcceptButonu.click();
+        ReusableMethods.bekle(3);
+
         // login butonuna basin
         qualitydemyPage.loginButonu.click();
         // basarili olarak giris yapilamadigini test edin
